@@ -1,0 +1,23 @@
+[
+  {
+    "arguments": [
+      "/opt/ti/msp430-gcc/bin/msp430-elf-gcc",
+      "-I",
+      "/opt/ti/msp430-gcc/include",
+      "-mmcu=MSP430FR2433",
+      "-mlarge",
+      "-mdata-region=lower",
+      "-mhwmult=f5series",
+      "-Og",
+      "-Wall",
+      "-g",
+      "-c",
+      "-o",
+      "blink.o",
+      "blink.c"
+    ],
+    "directory": "/home/mohamed/playground/c/msp430/msp430fr2433/blink_LED",
+    "file": "/home/mohamed/playground/c/msp430/msp430fr2433/blink_LED/blink.c",
+    "output": "/home/mohamed/playground/c/msp430/msp430fr2433/blink_LED/blink.o"
+  }
+]

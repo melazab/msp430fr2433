@@ -1,0 +1,29 @@
+# Build directories
+obj/
+bin/
+
+# Object files
+*.o
+*.ko
+*.elf
+
+# Libraries
+*.a
+*.so
+*.la
+*.lo
+
+# Executables
+*.out
+*.i*86
+*.x86_64
+*.hex
+
+# The clangd index
+.cache/
+
+# Debug files
+*.dSYM/
+
+# IDE specific files
+.vscode/
