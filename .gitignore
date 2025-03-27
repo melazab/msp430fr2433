@@ -27,3 +27,6 @@ bin/
 
 # IDE specific files
 .vscode/
+
+# Log file
+*log*

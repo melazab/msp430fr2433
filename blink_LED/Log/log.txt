@@ -58,3 +58,140 @@ Sat Dec  7 19:52:01 2024:	* ----------------------------------------------------
 Sat Dec  7 19:52:01 2024:	* Driver      : closed (MSP DebugStack not initialized)
 Sat Dec  7 19:52:01 2024:	* ----------------------------------------------------------------------------
 Sat Dec  7 19:52:01 2024:	*/
+Wed Dec 11 10:59:09 2024:	* -----/|-------------------------------------------------------------------- *
+Wed Dec 11 10:59:09 2024:	*     / |__                                                                   *
+Wed Dec 11 10:59:09 2024:	*    /_   /   MSP Flasher v1.3.20                                             *
+Wed Dec 11 10:59:09 2024:	*      | /                                                                    *
+Wed Dec 11 10:59:09 2024:	* -----|/-------------------------------------------------------------------- *
+Wed Dec 11 10:59:09 2024:	*
+Wed Dec 11 10:59:09 2024:	* Evaluating triggers...done
+Wed Dec 11 10:59:09 2024:	* Checking for available FET debuggers: 
+Wed Dec 11 10:59:09 2024:	* Found USB FET @ ttyACM1 <- Selected
+Wed Dec 11 10:59:09 2024:	* Initializing interface @ ttyACM1...done
+Wed Dec 11 10:59:10 2024:	* Checking firmware compatibility: 
+Wed Dec 11 10:59:10 2024:	* The firmware of your FET is outdated.
+Wed Dec 11 10:59:10 2024:	- Would you like to update it? (Y/N): Wed Dec 11 10:59:12 2024:	Y
+Wed Dec 11 10:59:12 2024:	
+*********************************************************
+Wed Dec 11 10:59:12 2024:	*                                                        
+Wed Dec 11 10:59:12 2024:	*  Initializing Update Bootloader.                       
+Wed Dec 11 10:59:12 2024:	*  Programming new firmware:                             
+Wed Dec 11 10:59:12 2024:	Wed Dec 11 10:59:12 2024:	*  PROGRESS BAR                                         
+Wed Dec 11 10:59:27 2024:	
+*********************************************************
+Wed Dec 11 10:59:27 2024:	*                                                        
+Wed Dec 11 10:59:27 2024:	*  Initializing Update Bootloader.                       
+Wed Dec 11 10:59:27 2024:	*  Programming new firmware:                             
+Wed Dec 11 10:59:27 2024:	Wed Dec 11 10:59:27 2024:	*  PROGRESS BAR                                         
+Wed Dec 11 10:59:49 2024:	
+*  Update was successfully finished.                   
+Wed Dec 11 10:59:49 2024:	*                                                        
+Wed Dec 11 10:59:49 2024:	*********************************************************
+Wed Dec 11 10:59:49 2024:	
+Wed Dec 11 10:59:49 2024:	*  Exit Update Bootlader and reboot firmware.            
+Wed Dec 11 10:59:50 2024:	* FET firmware is up to date.
+Wed Dec 11 10:59:50 2024:	* Reading FW version...done
+Wed Dec 11 10:59:50 2024:	* Setting VCC to 3000 mV...done
+Wed Dec 11 10:59:53 2024:	* Accessing device...done
+Wed Dec 11 10:59:53 2024:	* Reading device information...done
+Wed Dec 11 10:59:54 2024:	* 
+Wed Dec 11 10:59:54 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 10:59:54 2024:	* Arguments   : MSP430FR2433.hex 
+Wed Dec 11 10:59:54 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 10:59:54 2024:	* Driver      : loaded
+Wed Dec 11 10:59:54 2024:	* Dll Version : 31400000
+Wed Dec 11 10:59:54 2024:	* FwVersion   : 31200000
+Wed Dec 11 10:59:54 2024:	* Interface   : TIUSB
+Wed Dec 11 10:59:54 2024:	* HwVersion   : E 5.0
+Wed Dec 11 10:59:54 2024:	* JTAG Mode   : AUTO
+Wed Dec 11 10:59:54 2024:	* Device      : MSP430FR2433
+Wed Dec 11 10:59:54 2024:	* EEM         : Level 5, ClockCntrl 2
+Wed Dec 11 10:59:54 2024:	* VCC OFF
+Wed Dec 11 10:59:54 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 10:59:54 2024:	* Powering down...done
+Wed Dec 11 10:59:54 2024:	* Disconnecting from device...done
+Wed Dec 11 10:59:54 2024:	* 
+Wed Dec 11 10:59:54 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 10:59:54 2024:	* Driver      : closed (No error)
+Wed Dec 11 10:59:54 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 10:59:54 2024:	*/
+Wed Dec 11 11:01:11 2024:	* -----/|-------------------------------------------------------------------- *
+Wed Dec 11 11:01:11 2024:	*     / |__                                                                   *
+Wed Dec 11 11:01:11 2024:	*    /_   /   MSP Flasher v1.3.20                                             *
+Wed Dec 11 11:01:11 2024:	*      | /                                                                    *
+Wed Dec 11 11:01:11 2024:	* -----|/-------------------------------------------------------------------- *
+Wed Dec 11 11:01:11 2024:	*
+Wed Dec 11 11:01:11 2024:	* Evaluating triggers...done
+Wed Dec 11 11:01:11 2024:	* Checking for available FET debuggers: 
+Wed Dec 11 11:01:11 2024:	* Found USB FET @ ttyACM1 <- Selected
+Wed Dec 11 11:01:11 2024:	* Initializing interface @ ttyACM1...done
+Wed Dec 11 11:01:11 2024:	* Checking firmware compatibility: 
+Wed Dec 11 11:01:11 2024:	* FET firmware is up to date.
+Wed Dec 11 11:01:11 2024:	* Reading FW version...done
+Wed Dec 11 11:01:11 2024:	* Setting VCC to 3000 mV...done
+Wed Dec 11 11:01:12 2024:	* Accessing device...done
+Wed Dec 11 11:01:12 2024:	* Reading device information...done
+Wed Dec 11 11:01:12 2024:	* Loading file into device...done
+Wed Dec 11 11:01:14 2024:	* 
+Wed Dec 11 11:01:14 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 11:01:14 2024:	* Arguments   : -n MSP430FR2433 -w MSP430FR2433.hex 
+Wed Dec 11 11:01:14 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 11:01:14 2024:	* Driver      : loaded
+Wed Dec 11 11:01:14 2024:	* Dll Version : 31400000
+Wed Dec 11 11:01:14 2024:	* FwVersion   : 31200000
+Wed Dec 11 11:01:14 2024:	* Interface   : TIUSB
+Wed Dec 11 11:01:14 2024:	* HwVersion   : E 5.0
+Wed Dec 11 11:01:14 2024:	* JTAG Mode   : AUTO
+Wed Dec 11 11:01:14 2024:	* Device      : MSP430FR2433
+Wed Dec 11 11:01:14 2024:	* EEM         : Level 5, ClockCntrl 2
+Wed Dec 11 11:01:14 2024:	* Erase Mode  : ERASE_ALL
+Wed Dec 11 11:01:14 2024:	* Prog.File   : MSP430FR2433.hex
+Wed Dec 11 11:01:14 2024:	* Verified    : FALSE
+Wed Dec 11 11:01:14 2024:	* BSL Unlock  : FALSE
+Wed Dec 11 11:01:14 2024:	* InfoA Access: FALSE
+Wed Dec 11 11:01:14 2024:	* VCC OFF
+Wed Dec 11 11:01:14 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 11:01:14 2024:	* Powering down...done
+Wed Dec 11 11:01:14 2024:	* Disconnecting from device...done
+Wed Dec 11 11:01:14 2024:	* 
+Wed Dec 11 11:01:14 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 11:01:14 2024:	* Driver      : closed (No error)
+Wed Dec 11 11:01:14 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 11:01:14 2024:	*/
+Wed Dec 11 11:20:23 2024:	* -----/|-------------------------------------------------------------------- *
+Wed Dec 11 11:20:23 2024:	*     / |__                                                                   *
+Wed Dec 11 11:20:23 2024:	*    /_   /   MSP Flasher v1.3.20                                             *
+Wed Dec 11 11:20:23 2024:	*      | /                                                                    *
+Wed Dec 11 11:20:23 2024:	* -----|/-------------------------------------------------------------------- *
+Wed Dec 11 11:20:23 2024:	*
+Wed Dec 11 11:20:23 2024:	* Evaluating triggers...done
+Wed Dec 11 11:20:23 2024:	* Checking for available FET debuggers: 
+Wed Dec 11 11:20:23 2024:	* Found USB FET @ ttyACM1 <- Selected
+Wed Dec 11 11:20:23 2024:	* Initializing interface @ ttyACM1...done
+Wed Dec 11 11:20:24 2024:	* Checking firmware compatibility: 
+Wed Dec 11 11:20:24 2024:	* FET firmware is up to date.
+Wed Dec 11 11:20:24 2024:	* Reading FW version...done
+Wed Dec 11 11:20:24 2024:	* Setting VCC to 3000 mV...done
+Wed Dec 11 11:20:25 2024:	* Accessing device...done
+Wed Dec 11 11:20:25 2024:	* Reading device information...done
+Wed Dec 11 11:20:26 2024:	* 
+Wed Dec 11 11:20:26 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 11:20:26 2024:	* Arguments   : MSP430FR2433.hex 
+Wed Dec 11 11:20:26 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 11:20:26 2024:	* Driver      : loaded
+Wed Dec 11 11:20:26 2024:	* Dll Version : 31400000
+Wed Dec 11 11:20:26 2024:	* FwVersion   : 31200000
+Wed Dec 11 11:20:26 2024:	* Interface   : TIUSB
+Wed Dec 11 11:20:26 2024:	* HwVersion   : E 5.0
+Wed Dec 11 11:20:26 2024:	* JTAG Mode   : AUTO
+Wed Dec 11 11:20:26 2024:	* Device      : MSP430FR2433
+Wed Dec 11 11:20:26 2024:	* EEM         : Level 5, ClockCntrl 2
+Wed Dec 11 11:20:26 2024:	* VCC OFF
+Wed Dec 11 11:20:26 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 11:20:26 2024:	* Powering down...done
+Wed Dec 11 11:20:26 2024:	* Disconnecting from device...done
+Wed Dec 11 11:20:26 2024:	* 
+Wed Dec 11 11:20:26 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 11:20:26 2024:	* Driver      : closed (No error)
+Wed Dec 11 11:20:26 2024:	* ----------------------------------------------------------------------------
+Wed Dec 11 11:20:26 2024:	*/
