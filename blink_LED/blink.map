@@ -513,10 +513,10 @@ __reset_vector  0x000000000000fffe        0x2
  *(.debug_frame)
  .debug_frame   0x0000000000000000       0x2c blink.o
 
-.debug_str      0x0000000000000000     0x1163
+.debug_str      0x0000000000000000     0x115c
  *(.debug_str)
- .debug_str     0x0000000000000000     0x1163 blink.o
-                                       0x1170 (size before relaxing)
+ .debug_str     0x0000000000000000     0x115c blink.o
+                                       0x1169 (size before relaxing)
 
 .debug_loc
  *(.debug_loc)

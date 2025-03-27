@@ -8,7 +8,7 @@ if [ $# -eq 0 ]; then
 fi
 
 # Set path to MSP430Flasher
-FLASHER_PATH="../MSPFlasher_1.3.20/MSP430Flasher"
+FLASHER_PATH="/opt/ti/MSPFlasher_1.3.20/"
 
 # Check if MSP430Flasher exists
 if [ ! -f "$FLASHER_PATH" ]; then

@@ -22,7 +22,7 @@ else
 fi
 
 # Check if MSP Flasher is already installed
-if command -v MSP430Flasher &> /dev/null; then
+if [ -d "/opt/ti/MSPFlasher_"* ]; then
     echo "MSP430 Flasher is already installed."
 else
     echo "Installing MSP430 Flasher..."
