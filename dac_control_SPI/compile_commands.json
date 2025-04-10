@@ -1,0 +1,65 @@
+[
+  {
+    "arguments": [
+      "/opt/ti/msp430-gcc/bin/msp430-elf-gcc",
+      "-I/opt/ti/msp430-gcc/include",
+      "-Iinclude",
+      "-mmcu=MSP430FR2433",
+      "-mlarge",
+      "-mdata-region=lower",
+      "-mhwmult=f5series",
+      "-Og",
+      "-Wall",
+      "-g",
+      "-c",
+      "-o",
+      "obj/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/mohamed/Projects/msp430/msp430fr2433/dac_control_SPI",
+    "file": "/home/mohamed/Projects/msp430/msp430fr2433/dac_control_SPI/src/main.c",
+    "output": "/home/mohamed/Projects/msp430/msp430fr2433/dac_control_SPI/obj/main.o"
+  },
+  {
+    "arguments": [
+      "/opt/ti/msp430-gcc/bin/msp430-elf-gcc",
+      "-I/opt/ti/msp430-gcc/include",
+      "-Iinclude",
+      "-mmcu=MSP430FR2433",
+      "-mlarge",
+      "-mdata-region=lower",
+      "-mhwmult=f5series",
+      "-Og",
+      "-Wall",
+      "-g",
+      "-c",
+      "-o",
+      "obj/hardware/dac63004w.o",
+      "src/hardware/dac63004w.c"
+    ],
+    "directory": "/home/mohamed/Projects/msp430/msp430fr2433/dac_control_SPI",
+    "file": "/home/mohamed/Projects/msp430/msp430fr2433/dac_control_SPI/src/hardware/dac63004w.c",
+    "output": "/home/mohamed/Projects/msp430/msp430fr2433/dac_control_SPI/obj/hardware/dac63004w.o"
+  },
+  {
+    "arguments": [
+      "/opt/ti/msp430-gcc/bin/msp430-elf-gcc",
+      "-I/opt/ti/msp430-gcc/include",
+      "-Iinclude",
+      "-mmcu=MSP430FR2433",
+      "-mlarge",
+      "-mdata-region=lower",
+      "-mhwmult=f5series",
+      "-Og",
+      "-Wall",
+      "-g",
+      "-c",
+      "-o",
+      "obj/hardware/msp_spi.o",
+      "src/hardware/msp_spi.c"
+    ],
+    "directory": "/home/mohamed/Projects/msp430/msp430fr2433/dac_control_SPI",
+    "file": "/home/mohamed/Projects/msp430/msp430fr2433/dac_control_SPI/src/hardware/msp_spi.c",
+    "output": "/home/mohamed/Projects/msp430/msp430fr2433/dac_control_SPI/obj/hardware/msp_spi.o"
+  }
+]
