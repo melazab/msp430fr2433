@@ -30,7 +30,7 @@ OBJCOPY = $(GCC_DIR)/msp430-elf-objcopy
 FLASHER = $(FLASHER_DIR)/MSP430Flasher
 
 # Define flags
-CFLAGS = -I$(SUPPORT_FILE_DIR) -I$(INC_DIR) -mmcu=$(DEVICE) -mlarge -mdata-region=lower -mhwmult=f5series -Og -Wall -g
+CFLAGS = -I$(SUPPORT_FILE_DIR) -I$(INC_DIR) -mmcu=$(DEVICE) -mlarge -mdata-region=lower -mhwmult=f5series -Os -Wall -g
 LFLAGS = -L$(SUPPORT_FILE_DIR) -Wl,-Map,$(MAP),--gc-sections
 
 # Define OS-specific commands

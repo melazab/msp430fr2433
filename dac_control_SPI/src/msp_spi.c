@@ -2,7 +2,7 @@
  * @file msp_spi.c
  * @brief MSP430 SPI interface implementation
  */
-#include "hardware/msp_spi.h"
+#include "msp_spi.h"
 #include <msp430.h>
 #include <stddef.h> /* For NULL definition */
 
